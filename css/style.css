@@ -150,12 +150,15 @@ header ul li {
     position: relative;
 }
 
-header ul li:hover {
+header ul li:first-child {
     color: var(--main-color);
+}
+
+header ul li:hover {
     cursor: pointer;
 }
 
-header ul li:hover::before {
+header ul li:first-child:before {
     content: "";
     position: absolute;
     top: -5px;
@@ -267,9 +270,20 @@ header ul li:hover::before {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+    
+    .fa-magnifying-glass {
+        display: none;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+}
+
+/* Big devices (desktop, more/equal than 1024px) */
+@media (min-width: 1024px) {
+    .fa-magnifying-glass {
+        display: none;
+    }
 }
