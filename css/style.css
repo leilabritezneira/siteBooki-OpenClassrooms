@@ -5,6 +5,7 @@
 
 :root {
     --main-color: #0065FC;
+    --main-color-light: #DEEBFF;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
@@ -169,11 +170,11 @@ header ul li:hover::before {
     display: inline-flex;
     background-color: var(--main-bg-color);
     border-radius: 15px;
-    margin: 10px 0 10px 0;
+    margin: 10px 0;
 }
 
 .fa-location-dot {
-    padding: 15px;
+    padding: 15px 18px;
 }
 
 .input-search {
@@ -194,6 +195,41 @@ header ul li:hover::before {
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+
+.search-filter {
+    display: flex;
+    align-items: center;
+}
+.filter-buttom {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid var(--main-bg-color);
+    margin: 20px 10px;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.filter-buttom i {
+    padding-right: 10px;
+}
+
+.filter-buttom:hover  {
+    background-color: var(--main-color-light);
+}
+
+.search-info {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.fa-info {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid var(--main-bg-color);
+    padding: 5px 10px;
+    margin-right: 5px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
