@@ -77,6 +77,11 @@ a {
     width: 65%;
 }
 
+.hebergements-title {
+    display: flex;
+    align-items: center;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -276,14 +281,14 @@ header ul li:first-child:before {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .search-buttom p {
         display: none;
     }
 }
 
-/* Big devices (tablets, more/equal than 760px) */
-@media (min-width: 750px) {
+/* Big devices (tablets, more/equal than 768px) */
+@media (min-width: 768px) {
     .fa-magnifying-glass {
         display: none;
     }
