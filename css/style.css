@@ -82,6 +82,33 @@ a {
     align-items: center;
 }
 
+.hebergements-cards a {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.hebergements-cards .card {
+    width: 28%;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+}
+
+.hebergements-cards img {
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
