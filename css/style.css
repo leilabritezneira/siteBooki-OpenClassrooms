@@ -189,6 +189,10 @@ header ul li:first-child:before {
     outline: none;
 }
 
+::placeholder {
+    color: black;
+}
+
 .search-buttom {
     font-size: 16px;
     padding: 10px 20px;
