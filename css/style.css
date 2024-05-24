@@ -190,14 +190,9 @@ header ul li:hover {
     cursor: pointer;
 }
 
-header ul li:first-child:before {
-    content: "";
-    position: absolute;
+header ul li:first-child {
+    border-top: 2px solid var(--main-color);
     top: -5px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: var(--main-color);
 }
 
 /***** Search Form *****/
