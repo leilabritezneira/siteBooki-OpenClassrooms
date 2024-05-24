@@ -77,6 +77,38 @@ a {
     width: 65%;
 }
 
+.hebergements-title {
+    display: flex;
+    align-items: center;
+}
+
+.hebergements-cards a {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.hebergements-cards .card {
+    width: 28%;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+}
+
+.hebergements-cards img {
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -280,14 +312,14 @@ header ul li:first-child:before {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .search-buttom p {
         display: none;
     }
 }
 
-/* Big devices (tablets, more/equal than 760px) */
-@media (min-width: 750px) {
+/* Big devices (tablets, more/equal than 768px) */
+@media (min-width: 768px) {
     .fa-magnifying-glass {
         display: none;
     }
