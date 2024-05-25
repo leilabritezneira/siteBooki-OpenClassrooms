@@ -82,10 +82,15 @@ a {
     align-items: center;
 }
 
-.hebergements-cards a {
+.hebergements-cards {
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
+}
+
+.hebergements-cards  a {
+    display: contents;
+    width: -webkit-fill-available;
 }
 
 .hebergements-cards .card {
