@@ -159,6 +159,38 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activities ***********/
+.activities{
+    margin: 25px;
+}
+
+.activities-cards {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.activities-cards .card {
+    width: 20%;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    padding: 0;
+}
+
+.activities-cards img {
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.activities-cards .card .card-title{
+    padding-left: 20px;
+}
+
+.activities-cards  a {
+    display: contents;
+}
+
 /****** Header ***********/
 header {
     display: flex;
