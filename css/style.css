@@ -196,9 +196,8 @@ a {
 header {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     justify-content: space-between;
-    padding-bottom: 10px;
 }
 
 .logo {
@@ -371,6 +370,38 @@ footer ul li {
 @media (max-width: 768px) {
     .search-buttom p {
         display: none;
+    }
+    .main-container {
+        padding: 0;
+    }
+    /****** Header ***********/
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+    header nav {
+        width: 100%;
+        display: flex;
+    }
+    header ul {
+        flex-grow: 1;
+        margin: 0;
+        padding: 0px;
+    }
+    header ul li {
+        border-bottom: 2px solid var(--main-bg-color);
+        position: static;
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    header ul li:first-child {
+        border-bottom: 2px solid var(--main-color);
+        border-top: none;
     }
 }
 
