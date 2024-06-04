@@ -443,6 +443,13 @@ footer ul li {
     .populaires-cards a {
         width: 100%;
     }
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+        margin: 15px 0;
+    }
+    .hebergements-cards .card {
+        width: 100%;
+    }
 }
 
 /* Big devices (tablets, more/equal than 768px) */
