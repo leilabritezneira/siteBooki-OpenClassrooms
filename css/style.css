@@ -419,10 +419,19 @@ footer ul li {
     .input-search{
         border-right: none;
     }
-    .search-filter{
-
-
+    .filter-buttoms{
+        display: flex;
+        flex-wrap: wrap;
     }
+    .filter-buttom{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        width: min-content;
+        padding: 15px 20px;
+        margin: 10px;
+    }
+
     /****** Hebergements and populaires ******/
     .hebergements-and-populaires{
         flex-direction: column-reverse;
