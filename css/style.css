@@ -5,7 +5,6 @@
 
 :root {
     --main-color: #0065FC;
-    --main-color-light: #DEEBFF;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
@@ -290,7 +289,7 @@ header ul li:first-child {
 }
 
 .filter-buttom:hover  {
-    background-color: var(--main-color-light);
+    background-color: var(--filter-bg-color);
 }
 
 .search-info {
@@ -326,7 +325,7 @@ footer ul {
 footer ul li {
     list-style-type: none;
     padding: 10px 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -462,6 +461,12 @@ footer ul li {
     }  
     .activities-cards img {
         height: 150px;
+    }
+    /******Footer ******/ 
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
     }
 }
 
